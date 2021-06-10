@@ -27,6 +27,19 @@ module.exports = {
         singleQuote: false,
         trailingComma: "none"
       }
+    ],
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": [
+          "extends",
+          "apply",
+          "tailwind",
+          "components",
+          "utilities",
+          "screen"
+        ]
+      }
     ]
   }
 };
